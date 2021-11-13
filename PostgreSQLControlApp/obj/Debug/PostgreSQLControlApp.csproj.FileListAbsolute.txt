@@ -23,3 +23,9 @@ E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\PostgreSQLCo
 E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\PostgreSQLControlApp.ruResource.resources
 E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\PostgreSQLControlApp.fmMain.en-US.resources
 E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\en-US\PostgreSQLControlApp.resources.dll
+E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\bin\Debug\en-GB\PostgreSQLControlApp.resources.dll
+E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\bin\Debug\en-SB\PostgreSQLControlApp.resources.dll
+E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\PostgreSQLControlApp.fmMain.en-GB.resources
+E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\PostgreSQLControlApp.fmMain.en-SB.resources
+E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\en-GB\PostgreSQLControlApp.resources.dll
+E:\Другое\PostgreSQLControlApp\PostgreSQLControlApp\obj\Debug\en-SB\PostgreSQLControlApp.resources.dll

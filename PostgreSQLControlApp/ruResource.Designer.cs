@@ -61,6 +61,15 @@ namespace PostgreSQLControlApp {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Сервер не найден.
+        /// </summary>
+        internal static string serverNotFound {
+            get {
+                return ResourceManager.GetString("serverNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Сервер запущен.
         /// </summary>
         internal static string serverRunning {

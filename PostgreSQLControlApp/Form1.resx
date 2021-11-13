@@ -121,9 +121,6 @@
   <data name="lbStatus.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;lbStatus.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -140,6 +137,9 @@
   <data name="lbStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>369, 25</value>
   </data>
+  <data name="&gt;&gt;tsmiVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lbStatus.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
@@ -149,11 +149,14 @@
   <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="btnRestart.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="btnRestart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 266</value>
   </data>
-  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 102</value>
+  <data name="&gt;&gt;btnRestart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsmiVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 24</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnStart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -165,8 +168,8 @@
   <data name="btnStart.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10.8pt</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>fmMain</value>
+  <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
+    <value>btnStop</value>
   </data>
   <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -174,20 +177,32 @@
   <data name="btnStart.Text" xml:space="preserve">
     <value>Запустить</value>
   </data>
-  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 55</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PostgreSQL Control App</value>
   </data>
-  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 55</value>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="&gt;&gt;lbStatus.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>fmMain</value>
+  </data>
   <data name="&gt;&gt;btnRestart.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lbStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-3, 39</value>
+  <data name="btnRestart.Text" xml:space="preserve">
+    <value>Перезапустить</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>367, 345</value>
@@ -195,8 +210,11 @@
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
-  <data name="&gt;&gt;btnRestart.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -204,14 +222,20 @@
   <data name="btnStop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnRestart.Text" xml:space="preserve">
-    <value>Перезапустить</value>
+  <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnRestart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="tsmiVersion.Text" xml:space="preserve">
+    <value>Версия</value>
+  </data>
   <data name="&gt;&gt;btnStop.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
     <value>btnStart</value>
@@ -222,11 +246,23 @@
   <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
-    <value>btnStop</value>
+  <data name="lbStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 39</value>
   </data>
-  <data name="btnRestart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 266</value>
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 55</value>
+  </data>
+  <data name="&gt;&gt;tsmiVersion.Name" xml:space="preserve">
+    <value>tsmiVersion</value>
+  </data>
+  <data name="&gt;&gt;btnRestart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 28</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="btnStop.Text" xml:space="preserve">
     <value>Остановить</value>
@@ -240,10 +276,10 @@
   <data name="&gt;&gt;lbStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRestart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 55</value>
   </data>
-  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="btnRestart.Size" type="System.Drawing.Size, System.Drawing">
@@ -4624,15 +4660,18 @@
         //////8A
 </value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>PostgreSQL Control App</value>
+  <data name="btnRestart.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="btnRestart.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10.8pt</value>
   </data>
-  <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 102</value>
   </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
